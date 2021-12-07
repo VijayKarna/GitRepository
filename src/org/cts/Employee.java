@@ -1,7 +1,7 @@
 package org.cts;
 
 public class Employee {
-	private void add(int a, int b) {
+	public void add(int a, int b) {
 		int sum = a+b;
 		System.out.println(sum);
 		
@@ -11,10 +11,15 @@ public class Employee {
 		e.add(10, 20);
 	}
 	
+	public void sub(int a, int b) {
+		int sub = a-b;
+		System.out.println(sub);
+		
+	}	
+	
 	public void mul(int a, int b) {
 		int mul = a*b;
 		System.out.println(mul);
 
 	}
-
 }
